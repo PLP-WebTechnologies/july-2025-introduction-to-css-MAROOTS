@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #1a252f;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #34495e;
+    border: 1px dashed #ffffff;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #3498db;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dfe4ea;
+    border-bottom: 2px solid #2980b9;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #3498db;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #2980b9;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    border: 1px solid white;
+    background-color: #2980b9;
+}
+
+/* Hero section styling */
+.hero {
+    margin: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 3px solid #3498db;
+    text-align: center;
+}
+
+.hero p {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f7f9fb;
+    border: 1px dotted #7f8c8d;
+}
+
+/* Card container styling */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+}
+
+/* Card styling */
+.card {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f7f9fb;
+    border: 1px solid #dfe4ea;
+}
+
+/* Button styling */
+.cta-button, .card-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: 2px solid #c0392b;
+    cursor: pointer;
+}
+
+.cta-button:hover, .card-button:hover {
+    background-color: #c0392b;
+    border-color: #e74c3c;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    border: 1px solid #1a252f;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
